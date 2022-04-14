@@ -18,3 +18,15 @@ Automates Certificate Distribution - The system will be made such that the issue
 Enables Certificate Verification and maintains Integrity - The system facilitates the verification of the certificates that have been issued by it previously. The generation of certificate can be done online, and third parties can verify it. The verification of the certificates will be done with the help of the unique ID and hashing algorithm will be used to store and match the values. ​
 
 Reduces Duplicity and Forgery of Certificates - The system would help in eradicating forgery of certificates since you need to be an authorized person to be able to generate certificates on the institute’s behalf.​
+
+# Software Requirements: 
+
+Visual Studio
+
+.NET Framework 
+
+SHA-256 Hashing Algorithm 
+
+Microsoft SQL Server 
+
+SAP Crystal Reports
