@@ -25,8 +25,6 @@ Visual Studio
 
 .NET Framework 
 
-SHA-256 Hashing Algorithm 
-
 Microsoft SQL Server 
 
 SAP Crystal Reports
