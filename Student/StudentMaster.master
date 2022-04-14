@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="StudentMaster.master.cs" Inherits="Student_StudentMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+          <a class="navbar-brand" href="Home.aspx">Certificate Generation</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="Home.aspx">Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="EventDetails.aspx">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Certificate.aspx">My Participation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Logout.aspx">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+      </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+      <script type="text/javascript" src="vendor/jquery/jquery.slim.min.js"></script>
+      <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>
