@@ -1,7 +1,7 @@
 # Online-Certificate-Generation-and-Verification
 BE INFT Final Year Project 
 
-****# Introduction****
+# Introduction
 
 In this project an application called Online Certificate Generation and Verification System is proposed
 
