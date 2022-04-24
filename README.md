@@ -32,6 +32,6 @@ SAP Crystal Reports
 
 #Developers
 
-Soham Bandgar
-Atharv Patil
+Soham Bandgar\n
+Atharv Patil\n
 Tanmay Mungekar
